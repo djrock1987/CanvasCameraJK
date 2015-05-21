@@ -21,8 +21,7 @@ function onDeviceReady() {
     
     var objCanvas = document.getElementById("canvas");
     window.plugin.CanvasCamera.initialize(objCanvas);
-    
-    document.getElementById("takePicture").onclick = takePic;
+	document.getElementById("takePicture").addEventListener("click", takePic, false);
 }
 
 function takePic(e) {

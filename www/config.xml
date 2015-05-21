@@ -17,7 +17,7 @@
     
     <!-- Platforms -->
     <!-- If you specify none, all platforms will be built. -->
-    <gap:platform name="ios" />
+    <gap:platform name="android" />
 
     <!-- Preferences -->
 
